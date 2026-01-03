@@ -18,6 +18,10 @@ Since `.claude/` is committed to your repo, your whole team shares the same Clau
 2. Ask Claude Code to copy the `.claude` folder from this repository
 3. Start using Claude Code as normal
 
+```
+> claude "Copy the `.claude` contents from https://github.com/DiogoNeves/claude-template into the `.claude` folder in this project. Do not override files."
+```
+
 ## What's Included
 
 ```
