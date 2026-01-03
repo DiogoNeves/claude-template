@@ -2,11 +2,11 @@
   "permissions": {
     "defaultMode": "acceptEdits",
     "allow": [
-      "Bash(git *)",
-      "Bash(gh *)",
-      "Bash(cat *)",
-      "Bash(lsof *)",
-      "Bash(awk *)",
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(cat:*)",
+      "Bash(lsof:*)",
+      "Bash(awk:*)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)"
     ],
@@ -15,9 +15,9 @@
       "Write(.env*)",
       "Read(**/.env*)",
       "Write(**/.env*)",
-      "Bash(rm -rf *)",
-      "Bash(sudo *)",
-      "Bash(chmod 777 *)"
+      "Bash(rm -rf :*)",
+      "Bash(sudo :*)",
+      "Bash(chmod 777 :*)"
     ],
     "ask": []
   }
